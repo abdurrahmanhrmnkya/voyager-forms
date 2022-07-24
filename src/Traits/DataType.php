@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerForms\Traits;
+namespace YellowThree\VoyagerForms\Traits;
 
 use Illuminate\Http\Request;
 use TCG\Voyager\Facades\Voyager;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerForms\Mail;
+namespace YellowThree\VoyagerForms\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;

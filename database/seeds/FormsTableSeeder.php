@@ -1,7 +1,7 @@
 <?php
 
-use Pvtl\VoyagerForms\Form;
-use Pvtl\VoyagerForms\FormInput;
+use YellowThree\VoyagerForms\Form;
+use YellowThree\VoyagerForms\FormInput;
 use Illuminate\Database\Seeder;
 
 class FormsTableSeeder extends Seeder

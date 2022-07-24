@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerForms\Validators;
+namespace YellowThree\VoyagerForms\Validators;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;

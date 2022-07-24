@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerForms\Http\Controllers;
+namespace YellowThree\VoyagerForms\Http\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\RedirectResponse;
@@ -8,13 +8,13 @@ use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Redirect;
-use Pvtl\VoyagerForms\{
+use YellowThree\VoyagerForms\{
     Form,
     Enquiry,
     Traits\DataType,
     Mail\Enquiry as EnquiryMailable
 };
-use Pvtl\VoyagerFrontend\Helpers\ClassEvents;
+use YellowThree\VoyagerForms\Helpers\ClassEvents;
 use TCG\Voyager\Http\Controllers\VoyagerBaseController;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Storage;

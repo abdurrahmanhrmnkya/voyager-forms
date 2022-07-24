@@ -1,9 +1,9 @@
 <?php
 
-namespace Pvtl\VoyagerForms;
+namespace YellowThree\VoyagerForms;
 
 use Illuminate\Database\Eloquent\Model;
-use Pvtl\VoyagerForms\Form;
+use YellowThree\VoyagerForms\Form;
 
 class FormInput extends Model
 {

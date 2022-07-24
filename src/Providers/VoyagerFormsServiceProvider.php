@@ -1,12 +1,12 @@
 <?php
 
-namespace Pvtl\VoyagerForms\Providers;
+namespace YellowThree\VoyagerForms\Providers;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use Pvtl\VoyagerForms\Forms;
-use Pvtl\VoyagerForms\Commands;
-use Pvtl\VoyagerForms\Facades\Forms as FormsFacade;
+use YellowThree\VoyagerForms\Forms;
+use YellowThree\VoyagerForms\Commands;
+use YellowThree\VoyagerForms\Facades\Forms as FormsFacade;
 
 class VoyagerFormsServiceProvider extends ServiceProvider
 {

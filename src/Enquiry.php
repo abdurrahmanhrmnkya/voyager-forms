@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerForms;
+namespace YellowThree\VoyagerForms;
 
 use Illuminate\Database\Eloquent\Model;
 

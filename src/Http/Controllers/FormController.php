@@ -1,13 +1,13 @@
 <?php
 
-namespace Pvtl\VoyagerForms\Http\Controllers;
+namespace YellowThree\VoyagerForms\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Pvtl\VoyagerForms\Form;
-use Pvtl\VoyagerForms\FormInput;
-use Pvtl\VoyagerForms\Traits\DataType;
-use Pvtl\VoyagerFrontend\Helpers\Layouts;
-use Pvtl\VoyagerForms\Validators\FormValidators;
+use YellowThree\VoyagerForms\Form;
+use YellowThree\VoyagerForms\FormInput;
+use YellowThree\VoyagerForms\Traits\DataType;
+use YellowThree\VoyagerForms\Helpers\Layouts;
+use YellowThree\VoyagerForms\Validators\FormValidators;
 use TCG\Voyager\Facades\Voyager;
 use TCG\Voyager\Http\Controllers\VoyagerBaseController;
 

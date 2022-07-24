@@ -1,11 +1,11 @@
 <?php
 
-namespace Pvtl\VoyagerForms\Http\Controllers;
+namespace YellowThree\VoyagerForms\Http\Controllers;
 
-use Pvtl\VoyagerForms\Form;
+use YellowThree\VoyagerForms\Form;
 use Illuminate\Http\Request;
-use Pvtl\VoyagerForms\FormInput;
-use Pvtl\VoyagerForms\Traits\DataType;
+use YellowThree\VoyagerForms\FormInput;
+use YellowThree\VoyagerForms\Traits\DataType;
 use TCG\Voyager\Http\Controllers\VoyagerBaseController;
 
 class InputController extends VoyagerBaseController

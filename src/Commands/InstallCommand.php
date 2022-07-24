@@ -1,8 +1,8 @@
 <?php
 
-namespace Pvtl\VoyagerForms\Commands;
+namespace YellowThree\VoyagerForms\Commands;
 
-use Pvtl\VoyagerForms\Providers\VoyagerFormsServiceProvider;
+use YellowThree\VoyagerForms\Providers\VoyagerFormsServiceProvider;
 use TCG\Voyager\Traits\Seedable;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

@@ -7,7 +7,7 @@ Route::group([
     'as' => 'voyager.forms.',
     'prefix' => 'admin/forms/',
     'middleware' => ['web', 'admin.user'],
-    'namespace' => '\Pvtl\VoyagerForms\Http\Controllers'
+    'namespace' => '\YellowThree\VoyagerForms\Http\Controllers'
 ], function () {
     Route::post('sort', ['uses' => "InputController@sort", 'as' => 'sort']);
 });
@@ -16,7 +16,7 @@ Route::group([
     'as' => 'voyager.enquiries.',
     'prefix' => 'admin/enquiries/',
     'middleware' => ['web', 'admin.user'],
-    'namespace' => '\Pvtl\VoyagerForms\Http\Controllers'
+    'namespace' => '\YellowThree\VoyagerForms\Http\Controllers'
 ], function () {
     Route::get('{id}/file/{fileKey}', ['uses' => "EnquiryController@getFile", 'as' => 'file']);
 });
@@ -28,7 +28,7 @@ Route::group([
 Route::group([
     'as' => 'voyager.enquiries.',
     'middleware' => ['web'],
-    'namespace' => '\Pvtl\VoyagerForms\Http\Controllers'
+    'namespace' => '\YellowThree\VoyagerForms\Http\Controllers'
 ], function () {
     Route::post('voyager-forms-submit-enquiry/{id}', ['uses' => "EnquiryController@submit", 'as' => 'submit']);
 });

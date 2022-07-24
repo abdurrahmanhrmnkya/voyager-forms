@@ -3,8 +3,8 @@
 if (!function_exists('forms')) {
     function forms($key, $default = null)
     {
-        $forms = new \Pvtl\VoyagerForms\Forms();
-        
+        $forms = new \YellowThree\VoyagerForms\Forms();
+
         return $forms->forms($key, $default);
     }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Pvtl\VoyagerForms;
+namespace YellowThree\VoyagerForms;
 
-use Pvtl\VoyagerForms\Form;
+use YellowThree\VoyagerForms\Form;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\View;

@@ -1,8 +1,8 @@
 <?php
 
-use Pvtl\VoyagerForms\Form;
-use Pvtl\VoyagerForms\Enquiry;
-use Pvtl\VoyagerForms\FormInput;
+use YellowThree\VoyagerForms\Form;
+use YellowThree\VoyagerForms\Enquiry;
+use YellowThree\VoyagerForms\FormInput;
 use TCG\Voyager\Models\DataRow;
 use TCG\Voyager\Models\DataType;
 use Illuminate\Database\Seeder;
